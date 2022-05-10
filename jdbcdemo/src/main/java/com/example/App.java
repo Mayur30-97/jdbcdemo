@@ -33,6 +33,7 @@ public final class App {
             while(rs.next())
             {
                 System.out.println(rs.getString("name"));
+                System.out.println(rs.getString("age"));
             }
 
             con.close();
